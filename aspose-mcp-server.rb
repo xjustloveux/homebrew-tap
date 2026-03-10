@@ -4,11 +4,11 @@ class AsposeMcpServer < Formula
   license "MIT"
 
   if Hardware::CPU.arm?
-    url "https://github.com/xjustloveux/aspose-mcp-server/releases/download/v1.0.73/aspose-mcp-server-macos-arm64.tar.gz"
-    sha256 "544d5edc36d1c5b4adbe94e8c729a2dbd64218b7e62bd9f9782798cc6847da89"
+    url "https://github.com/xjustloveux/aspose-mcp-server/releases/download/v1.0.74/aspose-mcp-server-macos-arm64.tar.gz"
+    sha256 "93da4e2cca12020d9bdc86e7260c9653f747ce7fde2f25ea048c4bbed47a0755"
   else
-    url "https://github.com/xjustloveux/aspose-mcp-server/releases/download/v1.0.73/aspose-mcp-server-macos-x64.tar.gz"
-    sha256 "12917621b945b253b61d9af37b2235a330727a1203f01272eb6eb9b926da7de6"
+    url "https://github.com/xjustloveux/aspose-mcp-server/releases/download/v1.0.74/aspose-mcp-server-macos-x64.tar.gz"
+    sha256 "5353de35d25b657278d559aaa5344174d5ff5aa2ea70421e48ed72fb4dca78c1"
   end
 
   def install
